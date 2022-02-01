@@ -15,7 +15,6 @@ def home():
         data = "hello world"
         return jsonify({'data': data})
   
-  
 # A simple function to calculate the square of a number
 # the number to be squared is sent in the URL when we use GET
 # on the terminal type: curl http://127.0.0.1:5000 / home / 10
@@ -24,7 +23,6 @@ def home():
 def disp():
   
     return jsonify({'version': '1.0'})
-  
   
 # driver function
 if __name__ == '__main__':
